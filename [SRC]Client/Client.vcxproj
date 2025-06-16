@@ -127,6 +127,7 @@
     <ClCompile Include="MouseInterface.cpp" />
     <ClCompile Include="Msg.cpp" />
     <ClCompile Include="Mydib.cpp" />
+    <ClCompile Include="compat_stdio.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SoundBuffer.cpp" />
     <ClCompile Include="Sprite.cpp" />

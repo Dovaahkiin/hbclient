@@ -422,21 +422,33 @@
 				RelativePath="Msg.h"
 				>
 			</File>
-			<File
-				RelativePath="Mydib.cpp"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="Mydib.h"
-				>
+                        <File
+                                RelativePath="Mydib.cpp"
+                                >
+                                <FileConfiguration
+                                        Name="Release|Win32"
+                                        >
+                                        <Tool
+                                                Name="VCCLCompilerTool"
+                                                PreprocessorDefinitions=""
+                                        />
+                                </FileConfiguration>
+                        </File>
+                        <File
+                                RelativePath="compat_stdio.cpp"
+                                >
+                                <FileConfiguration
+                                        Name="Release|Win32"
+                                        >
+                                        <Tool
+                                                Name="VCCLCompilerTool"
+                                                PreprocessorDefinitions=""
+                                        />
+                                </FileConfiguration>
+                        </File>
+                        <File
+                                RelativePath="Mydib.h"
+                                >
 			</File>
 			<File
 				RelativePath="Skill.cpp"
