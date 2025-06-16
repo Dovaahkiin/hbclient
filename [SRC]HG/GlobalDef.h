@@ -1,3 +1,6 @@
+#ifndef HG_GLOBALDEF_H
+#define HG_GLOBALDEF_H
+#define _CRT_SECURE_NO_WARNINGS
 //#define DEF_WEAPONSPEEDLIMIT	// v2.172
 #define DEF_MAXCRUSADESTRUCTURES		300
 #define MAX_RUSHSTRUCTURES				100
@@ -5,14 +8,14 @@
 #define DEF_V383
 
 
-//#define NO_MSGSPEEDCHECK		// Å¬¶óÀÌ¾ðÆ® ½ºÇÇµå Ã¼Å© ÇÏÁö ¾Ê´Â ¿É¼Ç
-//#define DEF_CHECKUSERNPCNUM	// À¯Àú ºñ·Ê ¸ó½ºÅÍ »ý¼º ¿É¼Ç
-//#define DEF_GUILDWARMODE		// ±æµåÀü ¸ðµå: Æ¯Á¤ ¸¶¹ýÀ» »ç¿ëÇÒ ¼ö ¾ø´Ù.
-//#define DEF_DBGAMESERVER      // DB °ÔÀÓ¼­¹ö ¸ðµå
-//#define DEF_NPCITEM			// NPC¿¡¼­ ¾ÆÀÌÅÛ ¶³¾îÁö´Â È®·üÀ» config ÆÄÀÏÀ» ÅëÇØ¼­ ÇÑ´Ù.
-//#define DEF_BEGINNEREVENTMODE // ÃÊº¸ÀÚ¿ë ÀÌº¥Æ® ¸ðµå (ÃÊº¸¿ë ¹Ìµé¿¡ °æÄ¡ µÎ¹è)
+//#define NO_MSGSPEEDCHECK		// í´ë¼ì´ì–¸íŠ¸ ìŠ¤í”¼ë“œ ì²´í¬ í•˜ì§€ ì•ŠëŠ” ì˜µì…˜
+//#define DEF_CHECKUSERNPCNUM	// ìœ ì € ë¹„ë¡€ ëª¬ìŠ¤í„° ìƒì„± ì˜µì…˜
+//#define DEF_GUILDWARMODE		// ê¸¸ë“œì „ ëª¨ë“œ: íŠ¹ì • ë§ˆë²•ì„ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
+//#define DEF_DBGAMESERVER      // DB ê²Œìž„ì„œë²„ ëª¨ë“œ
+//#define DEF_NPCITEM			// NPCì—ì„œ ì•„ì´í…œ ë–¨ì–´ì§€ëŠ” í™•ë¥ ì„ config íŒŒì¼ì„ í†µí•´ì„œ í•œë‹¤.
+//#define DEF_BEGINNEREVENTMODE // ì´ˆë³´ìžìš© ì´ë²¤íŠ¸ ëª¨ë“œ (ì´ˆë³´ìš© ë¯¸ë“¤ì— ê²½ì¹˜ ë‘ë°°)
 
-//#define DEF_TESTSERVER		// Å×½ºÆ® ¼­¹ö ¸ðµå
+//#define DEF_TESTSERVER		// í…ŒìŠ¤íŠ¸ ì„œë²„ ëª¨ë“œ
 //#define DEF_KOREA
 //#define DEF_TAIWAN
 //#define DEF_CHINESE
@@ -21,24 +24,24 @@
 #define DEF_INTERSERVER
 
 
-// ¸ðµç ³ª¶ó °øÅë 
-//#define	DEF_WINTER	// °Ü¿ï ¼³Á¤ (´«³»¸®°Ô ÇÑ´Ù.)
+// ëª¨ë“  ë‚˜ë¼ ê³µí†µ 
+//#define	DEF_WINTER	// ê²¨ìš¸ ì„¤ì • (ëˆˆë‚´ë¦¬ê²Œ í•œë‹¤.)
 #define DEF_V219
-#define DEF_BEGINNERTOWNPROTECT	// Áß¸³ ¸¶À»³»¿¡¼­ °ø°Ý ¾ÈµÊ v2.181
+#define DEF_BEGINNERTOWNPROTECT	// ì¤‘ë¦½ ë§ˆì„ë‚´ì—ì„œ ê³µê²© ì•ˆë¨ v2.181
 
 #ifdef DEF_KOREA
-	#define DEF_CONSULTATION		// ½ÉÀÇ °ü·Ã
-	#define DEF_DEFENCEHACKING		// 2002-12-8 World server º¸¾È ¼³Á¤À» À§ÇØ
-	#define DEF_CHINESECANDYEVENT	// 2002-12-12 Áß±¹ »çÅÁÀÌº¥Æ®  
+	#define DEF_CONSULTATION		// ì‹¬ì˜ ê´€ë ¨
+	#define DEF_DEFENCEHACKING		// 2002-12-8 World server ë³´ì•ˆ ì„¤ì •ì„ ìœ„í•´
+	#define DEF_CHINESECANDYEVENT	// 2002-12-12 ì¤‘êµ­ ì‚¬íƒ•ì´ë²¤íŠ¸  
 #endif
 
 #if defined(DEF_INTERSERVER)
 	//#define DEF_MAXLEVEL150
-	//#define DEF_DBGAMESERVER	// DB °ÔÀÓ¼­¹ö ¸ðµå 
-	//#define DEF_DEFENCEHACKING  // 2002-12-8 World server º¸¾È ¼³Á¤À» À§ÇØ 
-	#define DEF_ENGLISHITEMNAME		// v2.15 ÀÌ°Ç ³ªÁß¿¡ ´Ù½Ã ¼³Á¤ÇÒ ÇÊ¿ä°¡ ÀÖÀ½.. ÇöÀç ½Ã°£°ü°è»ó ¹Ì·ë
-	#define DEF_LOCALNPCNAME		// v2.14 ´ë¸¸¿ë NPC ÀÌ¸§ Áß¹®È­¸¦ À§ÇØ 
-	#define DEF_BEGINNERTOWNPROTECT	// Áß¸³ ¸¶À»³»¿¡¼­ °ø°Ý ¾ÈµÊ v2.181
+	//#define DEF_DBGAMESERVER	// DB ê²Œìž„ì„œë²„ ëª¨ë“œ 
+	//#define DEF_DEFENCEHACKING  // 2002-12-8 World server ë³´ì•ˆ ì„¤ì •ì„ ìœ„í•´ 
+	#define DEF_ENGLISHITEMNAME		// v2.15 ì´ê±´ ë‚˜ì¤‘ì— ë‹¤ì‹œ ì„¤ì •í•  í•„ìš”ê°€ ìžˆìŒ.. í˜„ìž¬ ì‹œê°„ê´€ê³„ìƒ ë¯¸ë£¸
+	#define DEF_LOCALNPCNAME		// v2.14 ëŒ€ë§Œìš© NPC ì´ë¦„ ì¤‘ë¬¸í™”ë¥¼ ìœ„í•´ 
+	#define DEF_BEGINNERTOWNPROTECT	// ì¤‘ë¦½ ë§ˆì„ë‚´ì—ì„œ ê³µê²© ì•ˆë¨ v2.181
 	
 //	#define DEF_WINTER
 	//#define DEF_TEST					// Admin-Security = FALSE
@@ -46,13 +49,13 @@
 #endif
 
 #ifdef DEF_TESTSERVER
-	#define DEF_DBGAMESERVER		// DB °ÔÀÓ¼­¹ö ¸ðµå
-	// Test ÁßÀÎ »çÇ×
+	#define DEF_DBGAMESERVER		// DB ê²Œìž„ì„œë²„ ëª¨ë“œ
+	// Test ì¤‘ì¸ ì‚¬í•­
 	// #define DEF_NPCITEM
 #endif 
 
 #ifdef DEF_USA
-	#define DEF_SAMESIDETOWNPROTECT	// °°ÀºÆí³¢¸® ¸¶À»³»¿¡¼­ °ø°Ý ¾ÈµÊ v2.172
+	#define DEF_SAMESIDETOWNPROTECT	// ê°™ì€íŽ¸ë¼ë¦¬ ë§ˆì„ë‚´ì—ì„œ ê³µê²© ì•ˆë¨ v2.172
 	#define DEF_MAXLEVEL150
 //	#define DEF_ITEMDROPRATINGUP	1500
 #endif
@@ -60,35 +63,37 @@
 
 #ifdef DEF_TAIWAN
 	#define DEF_TAIWANLOG
-//	#define DEF_DEFENCEHACKING		// 2002-12-8 World server º¸¾È ¼³Á¤À» À§ÇØ 
-	#undef	DEF_WINTER	// °Ü¿ï ¼³Á¤ (´«³»¸®°Ô ÇÑ´Ù.)
-//	#define DEF_BALLEVENT           // !! ÁÖÀÇ 1¿ù1 ~ 15 ´ë¸¸ ¼Ò¿ø±¸ ÀÌº¥Æ® 
-	#define DEF_DBGAMESERVER		// DB °ÔÀÓ¼­¹ö ¸ðµå 
-	#define DEF_LOCALNPCNAME		// v2.14 ´ë¸¸¿ë NPC ÀÌ¸§ Áß¹®È­¸¦ À§ÇØ 
-	#define DEF_ENGLISHITEMNAME		// v2.15 ÀÌ°Ç ³ªÁß¿¡ ´Ù½Ã ¼³Á¤ÇÒ ÇÊ¿ä°¡ ÀÖÀ½.. ÇöÀç ½Ã°£°ü°è»ó ¹Ì·ë
+//	#define DEF_DEFENCEHACKING		// 2002-12-8 World server ë³´ì•ˆ ì„¤ì •ì„ ìœ„í•´ 
+	#undef	DEF_WINTER	// ê²¨ìš¸ ì„¤ì • (ëˆˆë‚´ë¦¬ê²Œ í•œë‹¤.)
+//	#define DEF_BALLEVENT           // !! ì£¼ì˜ 1ì›”1 ~ 15 ëŒ€ë§Œ ì†Œì›êµ¬ ì´ë²¤íŠ¸ 
+	#define DEF_DBGAMESERVER		// DB ê²Œìž„ì„œë²„ ëª¨ë“œ 
+	#define DEF_LOCALNPCNAME		// v2.14 ëŒ€ë§Œìš© NPC ì´ë¦„ ì¤‘ë¬¸í™”ë¥¼ ìœ„í•´ 
+	#define DEF_ENGLISHITEMNAME		// v2.15 ì´ê±´ ë‚˜ì¤‘ì— ë‹¤ì‹œ ì„¤ì •í•  í•„ìš”ê°€ ìžˆìŒ.. í˜„ìž¬ ì‹œê°„ê´€ê³„ìƒ ë¯¸ë£¸
 	#define DEF_LOGTIME
 #endif
 
 #ifdef DEF_CHINESE
-	#define DEF_CHINESECANDYEVENT	// 2002-12-12 Áß±¹ »çÅÁÀÌº¥Æ® 
+#endif
+#endif
+
 	#define DEF_CHINESEGUILDLIMIT
 	#define DEF_NPCITEM
-	// #define DEF_ITEMDROPRATINGUP	3000	// dice(1, 10000) > (9000 - 3000)  => ¾ÆÀÌÅÛ ¹ß»ý
+	// #define DEF_ITEMDROPRATINGUP	3000	// dice(1, 10000) > (9000 - 3000)  => ì•„ì´í…œ ë°œìƒ
 #endif
 
 #if  defined(DEF_CHINESE) ||defined(DEF_JAPAN) || defined (DEF_USA)
-	#define DEF_DBGAMESERVER		// DB °ÔÀÓ¼­¹ö ¸ðµå 
-	#define DEF_LOCALNPCNAME		// v2.14 ´ë¸¸¿ë NPC ÀÌ¸§ Áß¹®È­¸¦ À§ÇØ 
-	#define DEF_ENGLISHITEMNAME		// v2.15 ÀÌ°Ç ³ªÁß¿¡ ´Ù½Ã ¼³Á¤ÇÒ ÇÊ¿ä°¡ ÀÖÀ½.. ÇöÀç ½Ã°£°ü°è»ó ¹Ì·ë
+	#define DEF_DBGAMESERVER		// DB ê²Œìž„ì„œë²„ ëª¨ë“œ 
+	#define DEF_LOCALNPCNAME		// v2.14 ëŒ€ë§Œìš© NPC ì´ë¦„ ì¤‘ë¬¸í™”ë¥¼ ìœ„í•´ 
+	#define DEF_ENGLISHITEMNAME		// v2.15 ì´ê±´ ë‚˜ì¤‘ì— ë‹¤ì‹œ ì„¤ì •í•  í•„ìš”ê°€ ìžˆìŒ.. í˜„ìž¬ ì‹œê°„ê´€ê³„ìƒ ë¯¸ë£¸
 	#define DEF_LOGTIME
-	#define DEF_DEFENCEHACKING		// 2002-12-8 World server º¸¾È ¼³Á¤À» À§ÇØ 
+	#define DEF_DEFENCEHACKING		// 2002-12-8 World server ë³´ì•ˆ ì„¤ì •ì„ ìœ„í•´ 
 #endif
 
 
 
 #ifdef DEF_CONSULTATION
-//	#define DEF_ALLPLAYERPROTECT	// v2.19 2002-11-12 Ä³¸¯ÅÍ³¢¸® °ø°Ý ºÒ°¡´ÉÇÑ Áö¿ª ¼³Á¤ 
-	#define DEF_PKPENALTY			// v2.19 2002-11-18 PK ÇÏ¸é ¹«Á¶°Ç °¨¿ÁÀ¸·Î 
-	#define DEF_SAMESIDETOWNPROTECT	// °°ÀºÆí³¢¸® ¸¶À»³»¿¡¼­ °ø°Ý ¾ÈµÊ v2.172
-	#define DEF_ITEMDROP			// v2.19 2002-11-14 ¾ÆÀÌÅÛ µå¶øÀ» Æ÷¼Ç°ú ¼Ò¸ð¼º ¾ÆÀÌÅÛ¸¸ µÈ´Ù.(½ÉÀÇ°ü·Ã)
+//	#define DEF_ALLPLAYERPROTECT	// v2.19 2002-11-12 ìºë¦­í„°ë¼ë¦¬ ê³µê²© ë¶ˆê°€ëŠ¥í•œ ì§€ì—­ ì„¤ì • 
+	#define DEF_PKPENALTY			// v2.19 2002-11-18 PK í•˜ë©´ ë¬´ì¡°ê±´ ê°ì˜¥ìœ¼ë¡œ 
+	#define DEF_SAMESIDETOWNPROTECT	// ê°™ì€íŽ¸ë¼ë¦¬ ë§ˆì„ë‚´ì—ì„œ ê³µê²© ì•ˆë¨ v2.172
+	#define DEF_ITEMDROP			// v2.19 2002-11-14 ì•„ì´í…œ ë“œëžì„ í¬ì…˜ê³¼ ì†Œëª¨ì„± ì•„ì´í…œë§Œ ëœë‹¤.(ì‹¬ì˜ê´€ë ¨)
 #endif

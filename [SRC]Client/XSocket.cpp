@@ -147,7 +147,8 @@ BOOL XSocket::bBlockConnect(char * pAddr, int iPort, unsigned int uiMsg)
 	setsockopt(m_Sock, SOL_SOCKET, SO_RCVBUF, (const char FAR *)&dwOpt, sizeof(dwOpt));
 	setsockopt(m_Sock, SOL_SOCKET, SO_SNDBUF, (const char FAR *)&dwOpt, sizeof(dwOpt));
 
-	strcpy(m_pAddr, pAddr);
+        strncpy(m_pAddr, pAddr, sizeof(m_pAddr)-1);
+        m_pAddr[sizeof(m_pAddr)-1] = 0;
 	m_iPortNum = iPort;
 
 	m_uiMsg = uiMsg;
@@ -191,8 +192,8 @@ BOOL XSocket::bConnect(char * pAddr, int iPort, unsigned int uiMsg)
 	dwOpt = 8192*5;
 	setsockopt(m_Sock, SOL_SOCKET, SO_RCVBUF, (const char FAR *)&dwOpt, sizeof(dwOpt));
 	setsockopt(m_Sock, SOL_SOCKET, SO_SNDBUF, (const char FAR *)&dwOpt, sizeof(dwOpt));
-
-	strcpy(m_pAddr, pAddr);
+        strncpy(m_pAddr, pAddr, sizeof(m_pAddr)-1);
+        m_pAddr[sizeof(m_pAddr)-1] = 0;
 	m_iPortNum = iPort;
 
 	m_uiMsg = uiMsg;
@@ -540,7 +541,8 @@ char * XSocket::pGetRcvDataPointer(DWORD * pMsgSize, char * pKey)
 	*pMsgSize = (*wp) - 3;	
 	dwSize    = (*wp) - 3;
 
-	// v.14 : m_pSndBuffer +3 dwSize± cKey
+        strncpy(pAddrString, (const char *)inet_ntoa(sockaddr.sin_addr), sizeof(pAddrString)-1);
+        pAddrString[sizeof(pAddrString)-1] = 0;
 	if (cKey != NULL) {
 		for (i = 0; i < (int)(dwSize); i++) {
 			m_pRcvBuffer[3+i] = (char)( m_pRcvBuffer[3+i] ^ (cKey ^ (dwSize - i)) );
