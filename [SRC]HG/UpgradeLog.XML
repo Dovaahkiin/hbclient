@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HGserver">
+</Property><Property Name="Archivo de la solución" Value="C:\Documents and Settings\Administrador\Escritorio\Fenix Games\Hb\Sources\Hg  3.84 para medir punteros\HGserver.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="C:\Documents and Settings\Administrador\Escritorio\Fenix Games\Hb\Sources\Hg  3.84 para medir punteros\HGserver.suo">
+</Property><Property Name="Date" Value="Miércoles, 06 de Agosto de 2008">
+</Property><Property Name="Time" Value="13:47 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HGserver.sln" Description="La copia C:\Documents and Settings\Administrador\Escritorio\Fenix Games\Hb\Sources\Hg  3.84 para medir punteros\HGserver.sln.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="HGserver.suo" Description="La copia C:\Documents and Settings\Administrador\Escritorio\Fenix Games\Hb\Sources\Hg  3.84 para medir punteros\HGserver.suo.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="HGserver" Source="HGserver.vcproj" Description="Ya no se permite la implementación web en el servidor de IIS local. La herramienta de generación de implementación web se ha quitado de la configuración del proyecto.">
+</Event><Event ErrorLevel="1" Project="HGserver" Source="HGserver.vcproj" Description="Esta aplicación se ha actualizado para incluir la configuración relacionada con la característica Control de cuentas de usuario (UAC) de Windows Vista. De manera predeterminada, cuando se ejecuta en Windows Vista con el Control de cuentas de usuario habilitado, la aplicación está marcada para que se ejecute con los mismos privilegios que el proceso que la inició y para que no pueda ejecutarse con virtualización. Puede cambiar la configuración relativa al Control de cuentas de usuario desde las páginas de propiedades del proyecto.">
+</Event><Event ErrorLevel="0" Project="HGserver" Source="HGserver.vcproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto 'C:\Documents and Settings\Administrador\Escritorio\Fenix Games\Hb\Sources\Hg  3.84 para medir punteros\HGserver.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="HGserver" Source="HGserver.vcproj" Description="Proyecto actualizado correctamente.">
+</Event><Event ErrorLevel="3" Project="HGserver" Source="HGserver.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HGserver.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="HGserver.sln" Description="Converted">
+</Event></UpgradeLog>

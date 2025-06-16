@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HGserver", "HGserver.vcxproj", "{E8832C46-2BB7-467F-83BF-CFFD519B96DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8832C46-2BB7-467F-83BF-CFFD519B96DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8832C46-2BB7-467F-83BF-CFFD519B96DF}.Debug|Win32.Build.0 = Debug|Win32
+		{E8832C46-2BB7-467F-83BF-CFFD519B96DF}.Release|Win32.ActiveCfg = Debug|Win32
+		{E8832C46-2BB7-467F-83BF-CFFD519B96DF}.Release|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {249B8320-E192-46EB-831C-B726BC7FC4C2}
+	EndGlobalSection
+EndGlobal

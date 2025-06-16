@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LOPEZ\AppData\Local\Temp\RSP10A5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\jpeg" /I "..\png" /I "..\zlib" /I "..\mng" /I "..\tiff" /I "..\j2k" /I "..\jasper\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /D "JAS_WIN_MSVC_BUILD" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\tif_xfile.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximabmp.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximadsp.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximaenc.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximaexif.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\xImage.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximagif.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximahist.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximaico.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximainfo.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximaint.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximaj2k.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximajas.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximajbg.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximajpg.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximalpha.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximalyr.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximamng.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximapal.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximapcx.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximapng.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximasel.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximatga.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximath.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximatif.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximatran.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximawbmp.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximawmf.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\ximawnd.cpp"
+"E:\MARTIN LOPEZ !\Martincho SERVER HB\SERVER , SRC\Sources Files HB-Chaos Legion\sources\[SRC]Client\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\Users\LOPEZ\AppData\Local\Temp\RSP10A5.tmp" 
+Creating temporary file "C:\Users\LOPEZ\AppData\Local\Temp\RSP10A6.tmp" with contents
+[
+/nologo /out:"Debug\CxImage.lib" 
+".\Debug\tif_xfile.obj"
+".\Debug\ximabmp.obj"
+".\Debug\ximadsp.obj"
+".\Debug\ximaenc.obj"
+".\Debug\ximaexif.obj"
+".\Debug\xImage.obj"
+".\Debug\ximagif.obj"
+".\Debug\ximahist.obj"
+".\Debug\ximaico.obj"
+".\Debug\ximainfo.obj"
+".\Debug\ximaint.obj"
+".\Debug\ximaj2k.obj"
+".\Debug\ximajas.obj"
+".\Debug\ximajbg.obj"
+".\Debug\ximajpg.obj"
+".\Debug\ximalpha.obj"
+".\Debug\ximalyr.obj"
+".\Debug\ximamng.obj"
+".\Debug\ximapal.obj"
+".\Debug\ximapcx.obj"
+".\Debug\ximapng.obj"
+".\Debug\ximasel.obj"
+".\Debug\ximatga.obj"
+".\Debug\ximath.obj"
+".\Debug\ximatif.obj"
+".\Debug\ximatran.obj"
+".\Debug\ximawbmp.obj"
+".\Debug\ximawmf.obj"
+".\Debug\ximawnd.obj"
+".\Debug\xmemfile.obj"
+]
+Creating command line "link.exe -lib @C:\Users\LOPEZ\AppData\Local\Temp\RSP10A6.tmp"
+<h3>Output Window</h3>
+Compiling...
+tif_xfile.cpp
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+ximaexif.cpp
+xImage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximaj2k.cpp
+ximajas.cpp
+ximajbg.cpp
+ximajpg.cpp
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+ximapal.cpp
+ximapcx.cpp
+Generating Code...
+Compiling...
+ximapng.cpp
+ximasel.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+CxImage.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

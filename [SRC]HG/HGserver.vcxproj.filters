@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="language">
+      <UniqueIdentifier>{de528433-329e-4cad-982f-9d3d1cde2bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{7818ec48-2044-46f7-8570-8c42bb120eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{5b0c6cd3-99bf-4b6a-8224-49f17e11c97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{08475461-f420-4adb-948a-72efeddeb22f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="englishitem.h">
+      <Filter>language</Filter>
+    </ClInclude>
+    <ClInclude Include="koreaitem.h">
+      <Filter>language</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>language</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionID.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildItem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayEvent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObjectID.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDef.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildsMan.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageIndex.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mineral.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessages.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OccupyFlag.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillNum.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategicPoint.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StrTok.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportLoc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMessages.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="winmain.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XSocket.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HGserver.rc">
+      <Filter>language</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Winmm.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="Ws2_32.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuildItem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayEvent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildsMan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mineral.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OccupyFlag.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategicPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StrTok.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportLoc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="wmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XSocket.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

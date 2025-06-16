@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HGserver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\benja\AppData\Local\Temp\RSPEB99.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/HGserver.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp"
+]
+Creating command line "cl.exe @C:\Users\benja\AppData\Local\Temp\RSPEB99.tmp" 
+Creating temporary file "C:\Users\benja\AppData\Local\Temp\RSPEB9A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /map:"Debug/HGserver.map" /debug /machine:I386 /out:".\Debug\HGserver.exe" 
+".\Debug\BuildItem.obj"
+".\Debug\Client.obj"
+".\Debug\DelayEvent.obj"
+".\Debug\DynamicObject.obj"
+".\Debug\Fish.obj"
+".\Debug\GuildsMan.obj"
+".\Debug\Item.obj"
+".\Debug\Magic.obj"
+".\Debug\Map.obj"
+".\Debug\Mineral.obj"
+".\Debug\Misc.obj"
+".\Debug\Msg.obj"
+".\Debug\Npc.obj"
+".\Debug\OccupyFlag.obj"
+".\Debug\Potion.obj"
+".\Debug\Quest.obj"
+".\Debug\Skill.obj"
+".\Debug\StrategicPoint.obj"
+".\Debug\StrTok.obj"
+".\Debug\Teleport.obj"
+".\Debug\TeleportLoc.obj"
+".\Debug\Tile.obj"
+".\Debug\wmain.obj"
+".\Debug\XSocket.obj"
+".\Debug\Game.obj"
+".\Debug\MasterServer.obj"
+".\Debug\HGserver.res"
+".\Winmm.lib"
+".\Ws2_32.lib"
+]
+Creating command line "link.exe @C:\Users\benja\AppData\Local\Temp\RSPEB9A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Game.cpp
+Linking...
+Client.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1900"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:RuntimeLibrary=MTd_StaticDebug"; ignored
+Misc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1900"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:RuntimeLibrary=MTd_StaticDebug"; ignored
+Quest.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1900"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:RuntimeLibrary=MTd_StaticDebug"; ignored
+XSocket.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_CRT_STDIO_ISO_WIDE_SPECIFIERS=0"; ignored
+TeleportLoc.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Tile.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+wmain.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+XSocket.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Skill.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+StrategicPoint.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+StrTok.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Teleport.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Npc.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+OccupyFlag.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Potion.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Quest.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Map.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Mineral.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Misc.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Msg.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Fish.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+GuildsMan.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Item.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Magic.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+BuildItem.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+Client.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+DelayEvent.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+DynamicObject.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+wmain.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+XSocket.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Client.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Map.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Misc.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Npc.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+XSocket.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Client.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Map.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Npc.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wmain.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wmain.obj : error LNK2001: unresolved external symbol ___security_cookie
+XSocket.obj : error LNK2001: unresolved external symbol ___security_cookie
+Client.obj : error LNK2001: unresolved external symbol ___security_cookie
+Map.obj : error LNK2001: unresolved external symbol ___security_cookie
+Misc.obj : error LNK2001: unresolved external symbol ___security_cookie
+Npc.obj : error LNK2001: unresolved external symbol ___security_cookie
+Map.obj : error LNK2001: unresolved external symbol "void __stdcall `eh vector constructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIIP6EX0@Z1@Z)
+Map.obj : error LNK2001: unresolved external symbol "void __stdcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *))" (??_M@YGXPAXIIP6EX0@Z@Z)
+Map.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Msg.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+XSocket.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Map.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *,unsigned int)" (??_V@YAXPAXI@Z)
+Msg.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+Npc.obj : error LNK2001: unresolved external symbol __invalid_parameter
+Npc.obj : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+Npc.obj : error LNK2001: unresolved external symbol ___std_exception_copy
+Npc.obj : error LNK2001: unresolved external symbol ___std_exception_destroy
+wmain.obj : error LNK2001: unresolved external symbol ___stdio_common_vsprintf
+.\Debug\HGserver.exe : fatal error LNK1120: 14 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+HGserver.exe - 54 error(s), 16 warning(s)
+</pre>
+</body>
+</html>

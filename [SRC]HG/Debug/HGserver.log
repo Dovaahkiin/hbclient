@@ -1,0 +1,94 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: La propiedad "IntermediateOutputPath" se va a establecer en un valor por primera vez, pero ya se utilizó en "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(29,5): warning MSB4211: La propiedad "DebugType" se va a establecer en un valor por primera vez, pero ya se utilizó en "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (28,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(370,5): warning MSB4211: La propiedad "CleanFile" se va a establecer en un valor por primera vez, pero ya se utilizó en "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  XSocket.cpp
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\XSocket.cpp(164,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\XSocket.cpp(599,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wmain.cpp
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\wmain.cpp(270,23): warning C4477: 'sprintf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'HINSTANCE'
+  Tile.cpp
+  TeleportLoc.cpp
+  Teleport.cpp
+  StrTok.cpp
+  StrategicPoint.cpp
+  Skill.cpp
+  Quest.cpp
+  Potion.cpp
+  OccupyFlag.cpp
+  Npc.cpp
+  Msg.cpp
+  Misc.cpp
+  Mineral.cpp
+  Map.cpp
+  Magic.cpp
+  Item.cpp
+  GuildsMan.cpp
+  Game.cpp
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(2811,74): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(16275,93): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(16280,78): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(24395,113): warning C4244: 'argumento': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(31258,30): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(31324,26): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(31903,30): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33370,63): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33399,84): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33526,85): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33561,63): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33899,69): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33910,75): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33928,69): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33939,75): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33980,69): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(33991,75): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34819,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34820,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34821,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34822,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34823,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(34824,101): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35135,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35136,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35137,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35138,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35139,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(35140,102): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(37636,70): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(38817,120): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(38835,120): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(41042,90): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(42145,76): warning C4018: '>=': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(42204,46): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(42250,46): warning C4244: '=': conversión de 'DWORD' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(46016,97): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(47260,6): error C2668: 'abs': llamada ambigua a una función sobrecargada
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdlib(31,46): message : puede ser 'long double abs(long double) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdlib(27,40): message : o       'float abs(float) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdlib(23,41): message : o       'double abs(double) noexcept'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(368,22): message : o       '__int64 abs(const __int64) throw()'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(363,17): message : o       'long abs(const long) throw()'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(293,34): message : o       'int abs(int)'
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(47260,6): message : al hacer coincidir la lista de argumentos '(unsigned long)'
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50036,41): warning C4244: '=': conversión de 'unsigned long' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50176,41): warning C4244: '=': conversión de 'unsigned long' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50207,41): warning C4244: '=': conversión de 'unsigned long' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50483,76): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50564,77): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(50589,42): warning C4244: '=': conversión de 'unsigned long' a 'short'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(51897,32): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(53433,70): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(54010,27): warning C4267: '=': conversión de 'size_t' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(54530,24): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(54531,26): warning C4244: '=': conversión de 'short' a 'char'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(54724,14): warning C4244: '=': conversión de 'time_t' a 'DWORD'; posible pérdida de datos
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(55187,16): warning C4302: 'conversión de tipo': truncamiento de 'char *' a 'char'
+C:\Users\benja\OneDrive\Desktop\Soucers (Client , HG )\[SRC]HG\Game.cpp(55668,18): warning C4018: '>=': no coinciden signed/unsigned
+  Generando código...
+  Compilando...
+  Fish.cpp
+  DynamicObject.cpp
+  DelayEvent.cpp
+  Client.cpp
+  BuildItem.cpp
+  Generando código...
