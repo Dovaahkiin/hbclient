@@ -168,6 +168,9 @@
     <ClCompile Include="Mydib.cpp">
       <Filter>classes</Filter>
     </ClCompile>
+    <ClCompile Include="compat_stdio.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
     <ClCompile Include="Skill.cpp">
       <Filter>classes</Filter>
     </ClCompile>

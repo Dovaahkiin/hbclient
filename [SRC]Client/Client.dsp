@@ -259,6 +259,10 @@ SOURCE=.\Mydib.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\compat_stdio.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\Mydib.h
 # End Source File
 # Begin Source File
