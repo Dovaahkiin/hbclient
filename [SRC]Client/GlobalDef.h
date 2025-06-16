@@ -1,3 +1,7 @@
+#ifndef GLOBALDEF_H
+#define GLOBALDEF_H
+#define _CRT_SECURE_NO_WARNINGS
+
 //#define DEF_TESTOFICIAL
 //#define DEF_LOCAL
 #define DEF_OFICIAL
@@ -30,4 +34,5 @@
 
 #ifdef _DEBUGS
 	#define DEF_WINDOWED_MODE
+#endif
 #endif
